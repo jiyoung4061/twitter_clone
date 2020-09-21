@@ -1,69 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# twitter_clone
+# twitter_clone 
+## `twitter_clone with firebase`
+**fire base란?** https://firebase.google.com/  
+웹사이트를 통해 백엔드의 기술을 포괄하고 그 기능들을 제공해주는 서비스  
+_<u>aws에서 제공되는 서비스와 경쟁 https://docs.amplify.aws/ 최근이라 아직 정보가 많지 않지만 기능 좋음</u>_
+> 데이터베이스 기능 _(★는 이번 프로젝트에서 사용된 기능)_
+- **Cloud Firestore ★**  
+데이터베이스 관련 코드 없이 데이터베이스를 사용하게 해줌.
+- **Cloud Storage ★**  
+AWS의 S3와 비슷해 기본적으로 업로드 기능 제공.
+- **Hosting ★**  
+배포할 때 사용.
+- **Authentication ★**  
+인증 구현시 사용됨=> 이미 구현되어있어 시간 단축됨.
+- **Realtime 데이터베이스**  
+실시간 처리로 처음 firebase의 원조 데이터베이스 *=> 하지만 요즘 잘 안쓰임..*
+> Analytics 기능
+- **Crashlytics**  
+application의 충돌같은 것을 볼 수 있도록 도와줌 _(Web 지원X)_
+- **Performance Monitoring**  
+application의 성능을 보여줌
+- **Test Lab**  
+웹 사이트를 각종 기기별로 테스트할 수 있는 기능 제송
+- **App Distribution**  
+ios나 android 버전 배포를 도와줌
+- **Cloud Messaging**  
+푸쉬 알람 필요시 사용
+- **In-App Messaging**  
+app 이용자들에게 메시지를 보낼수 있도록 해줌
